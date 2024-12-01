@@ -164,3 +164,92 @@ img {
   text-align: center;
   line-height: 60px;
 }
+
+/* ===================================== Responsive Styles ===================================== */
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  .section__title {
+    font-size: 48px;
+  }
+
+  .button {
+    padding: 12px 50px 12px 25px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 900px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+  }
+
+  .section__title {
+    font-size: 40px;
+  }
+
+  .button {
+    padding: 10px 40px 10px 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr; /* 1 column on smaller screens */
+  }
+
+  .section__title {
+    font-size: 32px;
+  }
+
+  .button {
+    padding: 10px 30px 10px 15px;
+  }
+
+  .section {
+    padding-block: 50px; /* Reduced padding for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 100%;
+    padding: 0 5px;
+  }
+
+  .section__title {
+    font-size: 28px;
+  }
+
+  .button {
+    font-size: var(--smaller-font-size);
+    padding: 8px 25px 8px 15px;
+  }
+
+  /* Adjust text sizes */
+  body {
+    font-size: var(--small-font-size);
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
