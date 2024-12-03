@@ -282,12 +282,12 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: "Website Design",
+    title: "E-Commerce Website",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Ecommerce Website",
+        desc: "E-Commerce Website",
       },
       {
         icon: <FiUser />,
