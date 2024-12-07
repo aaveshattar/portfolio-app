@@ -41,6 +41,7 @@
   height: 5px;
   border-radius: 10px;
   background-color: var(--first-color);
+  z-index: 10;
 }
 
 .home__description {
@@ -79,7 +80,7 @@
 
   .home__title {
     font-size: var(--h2-font-size); /* Adjusts font size for smaller screens */
-    padding-left: 0;
+    padding-left: 50px;
   }
 
   .home__description {
