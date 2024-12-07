@@ -87,3 +87,29 @@ contact__info .info__icon {
   font-size: var(--h3-font-size);
   line-height: 64px;
 }
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .contact__container {
+    grid-template-columns: 1fr; /* Single column layout for smaller screens */
+    gap: 10px;
+  }
+
+  .form__input-group {
+    grid-template-columns: 1fr; /* Single column layout for input fields */
+  }
+
+  .contact__title {
+    font-size: var(--h2-font-size); /* Adjust font size for smaller screens */
+  }
+
+  .contact__socials {
+    justify-content: center; /* Center social icons */
+  }
+
+  .contact__social-link {
+    width: 35px;
+    height: 35px;
+    line-height: 39px;
+  }
+}

@@ -108,3 +108,28 @@
   height: 350px;
   object-fit: cover;
 }
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .portfolio__container {
+    grid-template-columns: 1fr; /* Single column layout for smaller screens */
+  }
+
+  .portfolio__img {
+    height: auto; /* Adjust image height to maintain aspect ratio */
+  }
+
+  .portfolio__modal-content {
+    max-width: 95%; /* Further reduce max-width for smaller screens */
+    padding: 12px; /* Reduce padding for smaller screens */
+  }
+
+  .modal__list {
+    grid-template-columns: 1fr; /* Single column layout for modal items */
+  }
+
+  .modal__close {
+    right: auto; /* Remove the right positioning */
+    left: -8.5%; /* Position it to the left */
+  }
+}
