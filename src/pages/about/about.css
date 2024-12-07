@@ -180,7 +180,7 @@
   }
 
   .section__subtitle {
-    font-size: var(--h2-font-size); /* Adjusts font size for smaller screens */
+    font-size: var(--h3-font-size); /* Adjusts font size for smaller screens */
     text-align: center;
   }
 

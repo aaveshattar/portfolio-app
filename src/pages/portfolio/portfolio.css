@@ -130,10 +130,9 @@
 
   .modal__close {
     position: absolute;
-    right: auto; /* Adjusted positioning to keep it inside */
-    left: -8.5%; /* Position it to the left */
-    width: 30px; /* Adjusted size */
-    height: 30px; /* Adjusted size */
+    left: -6%; /* Position it to the left */
+    width: 40px; /* Adjusted size */
+    height: 40px; /* Adjusted size */
     cursor: pointer;
     z-index: 1100; /* Ensure it is above the modal content */
     filter: invert(0.8);
