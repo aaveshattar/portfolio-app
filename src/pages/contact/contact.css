@@ -100,7 +100,7 @@ contact__info .info__icon {
   }
 
   .contact__title {
-    font-size: var(--h2-font-size); /* Adjust font size for smaller screens */
+    font-size: var(--h3-font-size); /* Adjust font size for smaller screens */
   }
 
   .contact__socials {
