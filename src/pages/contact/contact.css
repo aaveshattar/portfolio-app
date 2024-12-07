@@ -95,6 +95,14 @@ contact__info .info__icon {
     gap: 10px;
   }
 
+  .contact__data {
+    text-align: center;
+  }
+
+  .conatct__description {
+    text-align: justify;
+  }
+
   .form__input-group {
     grid-template-columns: 1fr; /* Single column layout for input fields */
   }

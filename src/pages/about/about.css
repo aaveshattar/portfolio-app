@@ -179,11 +179,12 @@
     padding: 20px; /* Reduces padding for smaller screens */
   }
 
-  .section_subtitle {
+  .section__subtitle {
     font-size: var(--h2-font-size); /* Adjusts font size for smaller screens */
+    text-align: center;
   }
 
-  .resume_description {
+  .resume__description {
     font-size: var(--normal-font-size); /* Adjusts font size for readability */
     line-height: 1.5; /* Adjusts line height for better readability */
   }
