@@ -168,3 +168,24 @@
   font-size: var(--smaller-font-size);
   line-height: 1.6;
 }
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .about_container {
+    grid-template-columns: 1fr; /* Adjusts layout for smaller screens */
+    padding: 20px; /* Reduces padding for smaller screens */
+  }
+
+  .resume_container {
+    grid-template-columns: 1fr; /* Adjusts layout for smaller screens */
+  }
+
+  .section_subtitle {
+    font-size: var(--h2-font-size); /* Adjusts font size for smaller screens */
+  }
+
+  .resume_description {
+    font-size: var(--normal-font-size); /* Adjusts font size for readability */
+    line-height: 1.5; /* Adjusts line height for better readability */
+  }
+}
