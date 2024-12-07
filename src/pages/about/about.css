@@ -171,13 +171,12 @@
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
-  .about_container {
+  .about__container,
+  .info__list,
+  .stats,
+  .resume__container {
     grid-template-columns: 1fr; /* Adjusts layout for smaller screens */
     padding: 20px; /* Reduces padding for smaller screens */
-  }
-
-  .resume_container {
-    grid-template-columns: 1fr; /* Adjusts layout for smaller screens */
   }
 
   .section_subtitle {
