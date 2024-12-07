@@ -150,7 +150,7 @@ export const resume = [
     year: "NOV 2022 - PRESENT",
     title:
       "Associate Software Engineer <span> Infinite Computer Solutions, Bangalore </span>",
-    desc: "<span style='text-align: justify;'>Developed and maintained Spring Boot microservices, enhancing modularity and scalability by 20%.<br />Implemented RESTful APIs for third-party integration, boosting data efficiency by 15%.<br />Optimized database operations with Hibernate and JPA, cutting query execution time by 25%.<br />Enhanced UI responsiveness and compatibility using ReactJS and Material UI, reducing page load time by 15%.<br />Automated batch jobs with Java and PL/SQL, improving data accuracy by 25%.<br />Analyzed and debugged logs, resolving system issues and reducing errors by 30% in six months.<br />Worked in Agile/Scrum environments to deliver high-quality solutions on time.<br /><strong>Key Technologies:</strong> Java, Spring Boot, Microservices, REST APIs, ReactJS, Hibernate, PL/SQL, AWS, Oracle DB, Docker, Jenkins.</span>",
+    desc: "<li>Developed and maintained Spring Boot microservices, enhancing modularity and scalability by 20%.</li><li>Implemented RESTful APIs for third-party integration, boosting data efficiency by 15%.</li><li>Optimized database operations with Hibernate and JPA, cutting query execution time by 25%.</li><li>Enhanced UI responsiveness and compatibility using ReactJS and Material UI, reducing page load time by 15%.</li><li>Automated batch jobs with Java and PL/SQL, improving data accuracy by 25%.</li><li>Analyzed and debugged logs, resolving system issues and reducing errors by 30% in six months.</li><li>Worked in Agile/Scrum environments to deliver high-quality solutions on time.</li><strong>Key Technologies:</strong> Java, Spring Boot, Microservices, REST APIs, ReactJS, Hibernate, PL/SQL, AWS, Oracle DB, Docker, Jenkins. ",
   },
 
   {
@@ -159,7 +159,7 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: "2022",
     title: "PG Diploma In Advanced Computing <span> C-DAC Noida </span>",
-    desc: "<span style='text-align: justify;'>Covered concepts of programming, operating systems, object-oriented programming with Java, algorithms, data structures, web programming technologies, database technologies, .NET, software development methodologies, and web-based Java programming.</span>",
+    desc: "<li>Concepts of programming</li><li>Operating systems</li><li>Object-oriented programming with Java</li><li>Data structures and algorithms</li><li>Web programming technologies</li><li>Database technologies</li><li>Software development methodologies</li><li>Web-based Java programming</li>",
   },
 
   {
@@ -168,7 +168,7 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: "2020",
     title: "Bachelor of Mechanical Engineering <span>Pune University </span>",
-    desc: "<span style='text-align: justify;'>Focused on thermodynamics, fluid mechanics, manufacturing, machine design, and engineering materials with practical applications in mechanical systems.</span>",
+    desc: "<li>Thermodynamics, Fluid mechanics</li><li>Manufacturing, Machine design</li><li>Engineering materials with practical applications in mechanical systems</li>",
   },
 ];
 

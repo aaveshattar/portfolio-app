@@ -7,7 +7,7 @@ const ResumeItem = ({ icon, year, title, desc }) => {
       <div className="resume__icon">{icon}</div>
       <span className="resume__date">{year}</span>
       <h3 className="resume__subtitle">{parse(title)}</h3>
-      <p className="resume__description">{parse(desc)}</p>
+      <ul className="resume__description">{parse(desc)}</ul>
     </div>
   );
 };

@@ -165,6 +165,10 @@
 }
 
 .resume__description {
+  list-style-type: disc; /* Ensures bullet points are shown */
+  padding-left: 20px; /* Adds some padding to align bullets */
+  margin: 0; /* Removes default margin */
+  text-align: justify;
   font-size: var(--smaller-font-size);
   line-height: 1.6;
 }
