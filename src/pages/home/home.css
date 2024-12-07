@@ -79,13 +79,17 @@
   }
 
   .home__title {
-    font-size: var(--h2-font-size); /* Adjusts font size for smaller screens */
-    padding-left: 50px;
+    position: relative;
+    font-size: var(--h2-font-size); /* Adjust this if needed */
+    line-height: 1.24;
+    padding-left: 10px;
+    white-space: nowrap; /* Prevents text from wrapping */
   }
 
   .home__description {
     line-height: 1.5;
     margin-block: 10px 20px;
+    text-align: justify;
   }
 
   .color__block {
