@@ -58,3 +58,36 @@
   left: -83%;
   transform: rotate(-15deg);
 }
+
+/* Added media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .home {
+    grid-template-columns: 1fr; /* Adjusts layout for smaller screens */
+    padding: 20px;
+    height: auto;
+  }
+
+  .home__img {
+    max-width: 80%; /* Reduces image size on smaller screens */
+    margin: 0 auto;
+  }
+
+  .home__data {
+    padding-top: 10px;
+    text-align: center; /* Centers text on smaller screens */
+  }
+
+  .home__title {
+    font-size: var(--h2-font-size); /* Adjusts font size for smaller screens */
+    padding-left: 0;
+  }
+
+  .home__description {
+    line-height: 1.5;
+    margin-block: 10px 20px;
+  }
+
+  .color__block {
+    display: none; /* Hides the color block on smaller screens */
+  }
+}
