@@ -188,6 +188,12 @@
     text-align: center;
   }
 
+  .about__info .button {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+  }
+
   .resume__description {
     font-size: var(--smaller-font-size); /* Adjusts font size for readability */
     line-height: 1.4; /* Adjusts line height for better readability */
