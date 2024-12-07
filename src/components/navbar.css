@@ -66,15 +66,17 @@
 .animate-toggle span:last-child {
   transform: rotate(-45deg) translate(1px, 1px);
 }
+.nav__toggle {
+  display: block;
+}
 
 @media screen and (min-width: 1024px) {
   .nav__menu {
     all: unset;
   }
-}
-
-.nav__toggle {
-  display: none;
+  .nav__toggle {
+    display: none; /* Hide toggle button on larger screens */
+  }
 }
 
 .nav {
