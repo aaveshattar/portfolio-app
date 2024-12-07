@@ -189,7 +189,8 @@
   }
 
   .resume__description {
-    font-size: var(--normal-font-size); /* Adjusts font size for readability */
-    line-height: 1.5; /* Adjusts line height for better readability */
+    font-size: var(--smaller-font-size); /* Adjusts font size for readability */
+    line-height: 1.4; /* Adjusts line height for better readability */
+    margin-block: 8px 16px;
   }
 }

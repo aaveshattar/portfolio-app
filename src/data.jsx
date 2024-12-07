@@ -159,7 +159,7 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: "2022",
     title: "PG Diploma In Advanced Computing <span> C-DAC Noida </span>",
-    desc: "<li>Concepts of programming</li><li>Operating systems</li><li>Object-oriented programming with Java</li><li>Data structures and algorithms</li><li>Web programming technologies</li><li>Database technologies</li><li>Software development methodologies</li><li>Web-based Java programming</li>",
+    desc: "<li>Concepts of programming</li><li>Operating systems</li><li>Object-oriented programming</li><li>Data structures and algorithms</li><li>Web programming technologies</li><li>Database technologies</li><li>Software development</li><li>Web-based Java programming</li>",
   },
 
   {
